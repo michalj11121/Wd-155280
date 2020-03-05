@@ -92,12 +92,12 @@
 #while y<n:
 #  print(x*" ",y*"o")
 #  x=x-1
-#  y=y+2
+# y=y+2
 #print (x*" ",y*"o")
 #while x<n+2:
-#  x=x+1
-#  y=y-2
-#  print(x*" ",y*"o")
+ # x=x+1
+ # y=y-2
+ # print(x*" ",y*"o")
 
 #ZAD 12
 
@@ -124,4 +124,25 @@
     #x = int(input("Podaj liczbe: "))
     #break
   #except ValueError:  print("To nie liczba")
-  
+
+#ZAD 
+#lista1=["zero","jeden","dwa","trzy","cztery","pięć","sześć","siedem","osiem","dziewięć"]
+#y=input()
+#i=0
+#lista=[]
+#while i<len(y):
+#  lista.append(y[i])
+#  i=i+1
+#print(lista)
+#lista=list(map(int,lista))
+#for x in lista:
+#    print(lista1[x])
+def silnia(x):
+   
+    i=1
+    wynik=1
+    while i<=x:
+        wynik=wynik*i
+        i=i+1
+    return wynik
+print(silnia(5))
